@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+}
+
+
+
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    padding: 0;
+   
+}
+
+
+#main-section {
+    display: grid;
+  
+    grid-template-columns: 4fr .5fr 2fr;
+    padding-top: 2rem;
+    padding-left: .5rem;
+}
+
+header {
+    grid-area: nav-header;
+    background-color: #43281c;
+    height:65px;
+   
+  
+}
+#logo{
+    padding-top: .84%;
+    left: 48%;
+    right: 48%;
+    position: absolute;
+    height: 40px;
+}
+#header-two {
+    background-color: #43281c;
+    width: 50%;
+   display: inline;
+    height: 58px;
+}
+#name {
+  font-size:  1.55rem;
+  color: #fbf2c0;
+  padding: 0;
+  margin: 0;
+  padding-top: .80%;
+  left: 50%;
+  right: 50%;
+  position: absolute;
+  width: 100%;
+}
+
+}
+.menu-left {
+    height: 500px;
+   width: 45%;
+   
+   
+}
+
+.menu-right {
+    height: 500px;
+  
+   
+   
+}
+.menu-sec {
+    height: 425px;
+    border-radius: 5px;
+
+    background-color: #eee1d5;
+    box-shadow: 1px grey;
+    margin-left: 2.5%;
+    width: 75%;
+   
+    
+}
+
+.quantity {
+    font-weight: normal;
+    border: 2px solid purple;
+   
+}
+.item {
+    display: flex;
+    gap: 3rem 5rem;
+    border-bottom: 2px solid #DDB892;
+    
+    margin-top: .50rem;
+    
+    
+    margin-left: 1rem;
+    margin-right:1rem;
+
+}
+
+.item:last-child{
+    border-bottom: white;
+   
+}
+
+#box-title {
+    color: #885a2d;
+    font-size: 1rem;
+    margin-left: 2.345%;
+    font-weight: normal;
+    margin-top: 4%;
+}
+.type {
+  font-weight:  bold;
+  margin-bottom: 0%;
+  border: 2px solid purple;
+}
+.extra-info {
+   color: #B08968;
+   font-size: 0.875rem;
+   font-weight: normal;
+   margin-top: .45rem;
+   border: 2px solid purple;
+}
+
+
+.price {
+    margin-left: 50%;
+    border: 2px solid purple;
+}
+.item:nth-of-type(2) {
+    margin-right: 7.4rem;
+}
+
