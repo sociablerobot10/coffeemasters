@@ -1,13 +1,15 @@
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 
 
 body {
-    margin: 0;
+    
     font-family: 'Open Sans', sans-serif;
-    padding: 0;
+    
    
 }
 
@@ -52,9 +54,9 @@ header {
   width: 100%;
 }
 
-}
+
 .menu-left {
-    height: 500px;
+    
    width: 45%;
    
    
@@ -67,32 +69,37 @@ header {
    
 }
 .menu-sec {
-    height: 425px;
+    height: 375px;
     border-radius: 5px;
 
     background-color: #eee1d5;
-    box-shadow: 1px grey;
-    margin-left: 2.5%;
-    width: 75%;
-   
+    box-shadow: 3px grey;
+ 
+    width: 89%;
+    margin-left: 5%;
+  
     
 }
 
 .quantity {
     font-weight: normal;
-    border: 2px solid purple;
+   
    
 }
 .item {
     display: flex;
-    gap: 3rem 5rem;
+    gap: 5rem;
     border-bottom: 2px solid #DDB892;
+    padding-left: 1.75%;
+    padding-top: 2.45%;
+    padding-bottom: 2.45%;
+   
+   
+    align-items: flex-start;
+ 
+    justify-content: space-around;
     
-    margin-top: .50rem;
-    
-    
-    margin-left: 1rem;
-    margin-right:1rem;
+
 
 }
 
@@ -104,29 +111,33 @@ header {
 #box-title {
     color: #885a2d;
     font-size: 1rem;
-    margin-left: 2.345%;
     font-weight: normal;
-    margin-top: 4%;
+    padding-top: 2%;
+    padding-left: 2.45%;
+    
 }
 .type {
   font-weight:  bold;
-  margin-bottom: 0%;
-  border: 2px solid purple;
+
+  
 }
 .extra-info {
    color: #B08968;
    font-size: 0.875rem;
    font-weight: normal;
-   margin-top: .45rem;
-   border: 2px solid purple;
+   
+  
 }
 
 
-.price {
-    margin-left: 50%;
-    border: 2px solid purple;
+
+.info {
+    flex-grow: .88;
+    display: flex;
+    flex-direction: column;
+   
+   
 }
-.item:nth-of-type(2) {
-    margin-right: 7.4rem;
-}
+
+
 
