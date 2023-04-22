@@ -30,7 +30,7 @@ header {
   
 }
 #logo{
-    padding-top: .84%;
+    padding-top: 1%;
     left: 48%;
     right: 48%;
     position: absolute;
@@ -57,13 +57,26 @@ header {
 
 .menu-left {
     
-   width: 45%;
+   width: 900px;
    
    
 }
 
 .menu-right {
-    height: 500px;
+
+    width: 900px;
+ 
+  display: flex;
+    flex-direction: column;
+   
+    border-radius: 5px;
+
+    box-shadow: 3px grey;
+ 
+ 
+    margin-left: 10%;
+  
+  
   
    
    
@@ -75,8 +88,8 @@ header {
     background-color: #eee1d5;
     box-shadow: 3px grey;
  
-    width: 89%;
-    margin-left: 5%;
+    width: 899px;
+    margin-left: 2%;
   
     
 }
@@ -98,6 +111,7 @@ header {
     align-items: flex-start;
  
     justify-content: space-around;
+    margin: 0% 1%;
     
 
 
@@ -108,7 +122,7 @@ header {
    
 }
 
-#box-title {
+#box-title, #name-title, #payment-title {
     color: #885a2d;
     font-size: 1rem;
     font-weight: normal;
@@ -139,5 +153,50 @@ header {
    
 }
 
+.order-top, .order-bottom {
+ 
+ 
+ position: relative;
 
+ border-radius: 5px;
+ background-color: #eee1d5;
+ padding: 1%;
 
+}
+
+.order-top {
+
+    height: 140px;
+    background-color: #eee1d5;
+    padding: 1%;
+}
+.order-bottom {
+    height: 220px;
+}
+
+input {
+    margin-top: 10px;
+    margin-left: 10px;
+border-radius: 10px;
+width: 90%;
+box-shadow: 0 1px 3px rgb(0 0 0 / 0.2);
+background-color: #eee1d5;
+height: 40px;
+border: 2px inset crimson;
+
+}
+
+label {
+    position: absolute;
+    font-size:11px;
+    top: 10;
+    margin-left: 2px;
+    left: 40px;
+    background-color: #eee1d5;
+    color:#885a2d;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: .75rem;
+}
