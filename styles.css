@@ -12,6 +12,7 @@ body {
   display: grid;
 
   grid-template-columns: 4fr 0.5fr 2fr;
+  grid-template-rows: auto;
   padding-top: 2rem;
   padding-left: 0.5rem;
 }
@@ -20,37 +21,36 @@ header {
   grid-area: nav-header;
   background-color: #43281c;
   height: 65px;
+  display: flex;
 }
 #logo {
   padding-top: 1%;
   left: 48%;
   right: 48%;
-  position: absolute;
+  position: relative;
   height: 40px;
 }
 #header-two {
   background-color: #43281c;
   width: 50%;
-  display: inline;
+
   height: 58px;
 }
 #name {
   font-size: 1.55rem;
   color: #fbf2c0;
-  padding: 0;
-  margin: 0;
-  padding-top: 0.8%;
-  left: 50%;
-  right: 50%;
-  position: absolute;
+
+  
+ 
+  
   width: 100%;
 }
 
-.menu-left {
+.section-left {
   width: 900px;
 }
 
-.menu-right {
+.section-right {
   width: 900px;
 
   display: flex;
@@ -62,7 +62,7 @@ header {
 
   margin-left: 10%;
 }
-.menu-sec {
+.menu {
   height: 375px;
   border-radius: 5px;
 
@@ -145,6 +145,10 @@ input {
   background-color: #eee1d5;
   height: 40px;
   border: 2px inset crimson;
+}
+
+#ccv-number {
+  width: 40%;
 }
 
 label {
