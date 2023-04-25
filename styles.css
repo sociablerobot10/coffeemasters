@@ -8,7 +8,7 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
-#main-section {
+main {
   display: grid;
 
   grid-template-columns: 4fr 0.5fr 2fr;
@@ -34,7 +34,7 @@ header {
   background-color: #43281c;
   width: 50%;
 
-  height: 58px;
+  height: 60px;
 }
 #name {
   font-size: 1.55rem;
@@ -69,11 +69,11 @@ header {
   background-color: #eee1d5;
   box-shadow: 3px grey;
 
-  width: 899px;
-  margin-left: 2%;
+  width: 900px;
+  
 }
 
-.quantity {
+.item__quantity {
   font-weight: normal;
 }
 .item {
@@ -103,16 +103,16 @@ header {
   padding-top: 2%;
   padding-left: 2.45%;
 }
-.type {
+.item__type {
   font-weight: bold;
 }
-.extra-info {
+.item__extra-info {
   color: #b08968;
   font-size: 0.875rem;
   font-weight: normal;
 }
 
-.info {
+.item__info {
   flex-grow: 0.88;
   display: flex;
   flex-direction: column;
@@ -147,7 +147,7 @@ input {
   border: 2px inset crimson;
 }
 
-#ccv-number {
+#client-info__ccv-number {
   width: 40%;
 }
 
@@ -165,3 +165,28 @@ form {
   flex-direction: column;
   gap: 0.75rem;
 }
+.price-info {
+  display: flex;
+  
+  gap: 5rem;
+  justify-content: center;
+
+  padding-top: 1%;
+  border: 2px solid purple;
+  text-align: left;
+  
+}
+#payment-info {
+  
+ 
+  padding-top: 5%;
+  border: 2px solid brown;
+  
+
+}
+.price-info__price-detail {
+  border: 2px solid yellow;
+  padding:10px;
+  text-align: left;
+}
+

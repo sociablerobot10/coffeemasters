@@ -22,55 +22,68 @@
       <h4 id="name">Coffee Masters</h4>
     </header>
 
-    <section id="main-section">
+    <main>
       <section class="menu section-left">
         <h2 id="box-title">ITEMS</h2>
         <div class="item">
-          <h3 class="quantity">1x</h3>
-          <div class="info">
-            <h4 class="type">Cappucino</h4>
-            <h5 class="extra-info">Light Foam</h5>
+          <h3 class="item__quantity">1x</h3>
+          <div class="item__info">
+            <h4 class="item__type">Cappucino</h4>
+            <h5 class="item__extra-info">Light Foam</h5>
           </div>
-          <h4 class="price">$6.00</h4>
+          <h4 class="item__price">$6.00</h4>
         </div>
 
         <div class="item">
-          <h3 class="quantity">1x</h3>
-          <div class="info">
-            <h4 class="type">Cappucino</h4>
-            <h5 class="extra-info">Almond Milk</h5>
-            <h5 class="extra-info">Double Espresso Shot</h5>
+          <h3 class="item__quantity">1x</h3>
+          <div class="item__info">
+            <h4 class="item__type">Cappucino</h4>
+            <h5 class="item__extra-info">Almond Milk</h5>
+            <h5 class="item__extra-info">Double Espresso Shot</h5>
           </div>
-          <h4 class="price">$7.90</h4>
+          <h4 class="item__price">$7.90</h4>
         </div>
 
-        <div class="item">
-          <h3 class="quantity">1x</h3>
-          <div class="info">
-            <h4 class="type">Croissant</h4>
-            <h5 class="extra-info">Butter</h5>
+        <div class="item__item">
+          <h3 class="item__quantity">1x</h3>
+          <div class="item__info">
+            <h4 class="item__type">Croissant</h4>
+            <h5 class="item__extra-info">Butter</h5>
           </div>
-          <h4 class="price">$5.37</h4>
+          <h4 class="item__price">$5.37</h4>
         </div>
       </section>
 
       <section class="section-right">
         <form>
           <section class="client-info order-top">
-            <h4 id="name-title">NAME</h4>
+            <h4 id="client-info__name-title">NAME</h4>
             <label for="order-name">Name for Order </label>
-            <input type="text" id="order-name" name="order-name" />
+            <input type="text" id="client-info__order-name" name="order-name" />
           </section>
           <section class="client-info order-bottom">
-            <h4 id="payment-title">PAYMENT</h4>
+            <h4 id="client-info__payment-title">PAYMENT</h4>
             <label for="card-number">Card number </label>
-            <input type="text" id="card-number" name="card-number" />
+            <input type="text" id="client-info__card-number" name="card-number" />
             <label for="ccv-number">CCV number </label>
-            <input type="text" id="ccv-number" name="ccv-number" />
+            <input type="text" id="client-info__ccv-number" name="ccv-number" />
           </section>
         </form>
-        
       </section>
+    </main>
+    <section id="payment-info">
+      <div class="price-info">
+        <p class="price-info__price-detail">Subtotal:</p>
+        <p id="price-info__subtotal">$19.27</p>
+      </div>
+      <div class="price-info">
+        <p class="price-info__price-detail">Tax:</p>
+        <p id="price-info__tax">$0.96</p>
+      </div>
+      <div class="price-info">
+        <p class="price-info__price-detail"><b>Total:</b></p>
+        <p id="price-info__total"><b>$20.23</b></p>
+      </div>
     </section>
   </body>
 </html>
