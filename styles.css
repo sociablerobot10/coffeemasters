@@ -18,17 +18,22 @@ main {
 }
 
 header {
-  grid-area: nav-header;
+ 
   background-color: #43281c;
   height: 65px;
   display: flex;
+  
+ 
+  align-items:center;
+  justify-content: center;
 }
 #logo {
   padding-top: 1%;
-  left: 48%;
-  right: 48%;
+ 
   position: relative;
   height: 40px;
+ 
+
 }
 #header-two {
   background-color: #43281c;
@@ -39,11 +44,11 @@ header {
 #name {
   font-size: 1.55rem;
   color: #fbf2c0;
-
+  
   
  
   
-  width: 100%;
+
 }
 
 .section-left {
@@ -85,7 +90,7 @@ header {
   padding-bottom: 2.45%;
 
   align-items: flex-start;
-
+  
   justify-content: space-around;
   margin: 0% 1%;
 }
@@ -168,25 +173,20 @@ form {
 .price-info {
   display: flex;
   
-  gap: 5rem;
-  justify-content: center;
-
-  padding-top: 1%;
-  border: 2px solid purple;
-  text-align: left;
   
-}
-#payment-info {
-  
+  justify-content: space-evenly;
+  align-items: center;
  
-  padding-top: 5%;
-  border: 2px solid brown;
   
-
 }
-.price-info__price-detail {
-  border: 2px solid yellow;
-  padding:10px;
-  text-align: left;
+
+.price-info__price-detail, #price-info__subtotal, #price-info__tax, #price-info__total  {
+  border: 10px solid yellow;
+ 
+  
+}
+.price-info {
+  border: 10px solid purple;
+ 
 }
 
